@@ -1,6 +1,6 @@
 # Keychain
 Wrapper around Apple's Keychain Services.  
-Based on Apple's sample project [GenericKeychain](https://developer.apple.com/library/content/samplecode/GenericKeychain/Introduction/Intro.html).
+Based on Apple's sample project ["GenericKeychain"](https://developer.apple.com/library/content/samplecode/GenericKeychain/Introduction/Intro.html).
 
 ## Usage
 
