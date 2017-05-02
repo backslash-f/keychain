@@ -4,22 +4,22 @@ Based on Apple's sample project ["GenericKeychain"](https://developer.apple.com/
 
 ## Usage
 
-### Saving 💾
+### 💾 Saving
 ````
 Keychain(service: "myService", account: "tokenSecret").saveCredential("Hi!")
 ````
 
-### Updating ✍🏻
+### ✍🏻 Updating
 ````
 Keychain(service: "myService", account: "tokenSecret").saveCredential("Hi again!")
 ````
 
-### Reading 🔍
+### 🔍 Reading
 ````
 Keychain(service: "myService", account: "tokenSecret").readCredential())
 ````
 
-### Deleting 💀
+### 💀 Deleting
 ````
 Keychain(service: "myService", account: "tokenSecret").deleteCredential()
 ````
@@ -33,7 +33,7 @@ do {
 }
 ````
 
-### Swift package manager 📦
+### 📦 Swift package manager
 Add it to the dependencies value of your `Package.swift`:
 ````
 dependencies: [
