@@ -16,6 +16,21 @@ import Foundation
 ///
 /// Usage examples:
 ///
+///  - To save a credential:
+///
+/// ```
+/// Keychain(service: SpotifyDefinitions.sessionService,
+///          account: SpotifyDefinitions.canonicalUsername
+/// ).saveCredential(stringCanonicalUsername)
+/// ```
+///
+///  - To read a credential:
+///
+/// ```
+/// Keychain(service: SpotifyDefinitions.sessionService,
+///          account: SpotifyDefinitions.canonicalUsername
+/// ).readCredential())
+/// ```
 struct Keychain {
     
     // MARK: - Types
