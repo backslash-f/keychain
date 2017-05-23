@@ -24,7 +24,7 @@ Keychain(service: "myService", account: "tokenSecret").readCredential())
 Keychain(service: "myService", account: "tokenSecret").deleteCredential()
 ````
 
-Notice that every API `throws`. So:
+💥 Notice that every API `throws`. So:
 ````
 do {
     try Keychain...
