@@ -37,6 +37,6 @@ do {
 Add it to the dependencies value of your `Package.swift`:
 ````
 dependencies: [
-    .Package(url: "https://github.com/backslash-f/keychain.git", majorVersion: 1)
+    .Package(url: "https://github.com/backslash-f/keychain.git", .branch("master"))
 ]
 ````
