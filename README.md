@@ -1,3 +1,6 @@
+[![swift-5.0](https://img.shields.io/badge/swift-5.0-brightgreen.svg)](https://github.com/apple/swift)
+[![package%20manager-compatible](https://img.shields.io/badge/package%20manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+
 # Keychain
 Wrapper around Apple's Keychain Services.  
 Based on Apple's sample project ["GenericKeychain"](https://developer.apple.com/library/content/samplecode/GenericKeychain/Introduction/Intro.html).
